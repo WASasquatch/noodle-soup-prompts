@@ -1,4 +1,4 @@
-terminology_database = {
+nspterminology = {
 
 	# BEAUTY/HANDSOME ADJECTIVES DATABASE
 	"adj-beauty": [
