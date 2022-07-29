@@ -1,5 +1,9 @@
 # **Noodle Soup Prompts**- Prompt Terminology Generator</font> ![visitors](https://visitor-badge.glitch.me/badge?page_id=Noodle-Soup-Prompts-Github&left_color=blue&right_color=orange) 
 
+<a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+&nbsp;
+
 This tool contains a *growing* database of terminology to help build interesting prompts for [Disco Diffusion](https://discodiffusion.com/). **Give it a try!**
 
 Artist names gathered by **MisterRuffian** (Discord Misterruffian#2891) on his amazing [Latent Artist & Modifier Encyclopedia](https://docs.google.com/spreadsheets/d/1_jgQ9SyvUaBNP1mHHEzZ6HhL_Es1KwBKQtnpnmWW82I/).
