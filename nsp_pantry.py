@@ -1,3 +1,32 @@
+import random
+
+# nsp_parse( string or list )
+def nsp_parse(prompt):
+  noodle_prompt = False
+  prompt_list = True if type(prompt) is list else False
+  new_prompt = None
+  new_prompts = []
+  for term in terminology_database:
+    nkey = f'_{term}_'
+    if not prompt_list:
+      new_prompt = prompt
+      tc = prompt.count(nkey)
+      if tc > 0:
+        for i in range(tc):
+          new_prompt = new_prompt.replace(nkey, random.choice(terminology_database[term]), 1)
+        new_prompts.append(new_prompt)
+        new_prompt = None
+    else:
+      for pentry in prompt:
+        new_prompt = pentry
+        tc = pentry.count(nkey)
+        if tc > 0:
+          for i in range(tc):
+            new_prompt = new_prompt.replace(nkey, random.choice(terminology_database[term]), 1)
+          new_prompts.append(new_prompt)
+          new_prompt = None   
+  return new_prompts if prompt_list else new_prompts[0]
+
 nspterminology = {
 
 	# BEAUTY/HANDSOME ADJECTIVES DATABASE
