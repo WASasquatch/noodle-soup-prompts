@@ -13,7 +13,7 @@ def nsp_parse(prompt):
       tc = prompt.count(nkey)
       if tc > 0:
         for i in range(tc):
-          new_prompt = new_prompt.replace(nkey, random.choice(terminology_database[term]), 1)
+          new_prompt = new_prompt.replace(nkey, random.choice(nspterminology[term]), 1)
         new_prompts.append(new_prompt)
         new_prompt = None
     else:
@@ -22,7 +22,7 @@ def nsp_parse(prompt):
         tc = pentry.count(nkey)
         if tc > 0:
           for i in range(tc):
-            new_prompt = new_prompt.replace(nkey, random.choice(terminology_database[term]), 1)
+            new_prompt = new_prompt.replace(nkey, random.choice(nspterminology[term]), 1)
           new_prompts.append(new_prompt)
           new_prompt = None   
   return new_prompts if prompt_list else new_prompts[0]
