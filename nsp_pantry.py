@@ -6,7 +6,7 @@ def nsp_parse(prompt):
   prompt_list = True if type(prompt) is list else False
   new_prompt = None
   new_prompts = []
-  for term in terminology_database:
+  for term in nspterminology:
     nkey = f'_{term}_'
     if not prompt_list:
       new_prompt = prompt
