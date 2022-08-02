@@ -1,31 +1,50 @@
 import random
 
-# nsp_parse( string or list )
+# nsp_parse( prompt )
+# Input: dict, list, str
+# Parse strings for terminology keys and replace them with random terms
 def nsp_parse(prompt):
-  noodle_prompt = False
-  prompt_list = True if type(prompt) is list else False
-  new_prompt = None
+
+  new_prompt = ''
   new_prompts = []
-  for term in nspterminology:
-    nkey = f'_{term}_'
-    if not prompt_list:
-      new_prompt = prompt
-      tc = prompt.count(nkey)
-      if tc > 0:
-        for i in range(tc):
-          new_prompt = new_prompt.replace(nkey, random.choice(nspterminology[term]), 1)
-        new_prompts.append(new_prompt)
-        new_prompt = None
-    else:
-      for pentry in prompt:
-        new_prompt = pentry
-        tc = pentry.count(nkey)
-        if tc > 0:
-          for i in range(tc):
-            new_prompt = new_prompt.replace(nkey, random.choice(nspterminology[term]), 1)
+  new_dict = {}
+  ptype = type(prompt)
+
+  if ptype == dict:
+    for pkey, plist in prompt.items():
+      if type(plist) is list:
+        for pstr in plist:
+          new_prompt = pstr
+          for term in nspterminology:
+            tkey = f'_{term}_'
+            tcount = new_prompt.count(tkey)
+            for i in range(tcount):
+              new_prompt = new_prompt.replace(tkey, random.choice(nspterminology[term]), 1)
           new_prompts.append(new_prompt)
-          new_prompt = None   
-  return new_prompts if prompt_list else new_prompts[0]
+          new_prompt = None
+      new_dict[pkey] = new_prompts
+    return new_dict
+  elif ptype == list:
+    for pstr in prompt:
+      new_prompt = pstr
+      for term in nspterminology:
+        tkey = f'_{term}_'
+        tcount = new_prompt.count(tkey)
+        for i in range(tcount):
+          new_prompt = new_prompt.replace(tkey, random.choice(nspterminology[term]), 1)
+      new_prompts.append(new_prompt)
+      new_prompt = None
+    return new_prompts
+  elif ptype == str:
+    new_prompt = prompt
+    for term in nspterminology:
+      tkey = f'_{term}_'
+      tcount = new_prompt.count(tkey)
+      for i in range(tcount):
+        new_prompt = new_prompt.replace(tkey, random.choice(nspterminology[term]), 1)
+    return new_prompt
+  else:
+    return prompt
 
 nspterminology = {
 
