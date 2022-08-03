@@ -23,7 +23,7 @@ wget -q --show-progress --no-cache --backups=1 'https://raw.githubusercontent.co
 
 ## Import and Parse
 
-```
+```python
 import nsp_pantry
 from nsp_pantry import  nspterminology, nsp_parse
 
@@ -41,7 +41,7 @@ print(new_prompts)
 ```
 
 ### Example Output
-```
+```python
 {0: ['Portrait of a goodly Enraged Hungarian woman with pearlescent skin and white hair by Ferdinand Keller, trending on CGSociety.:5', 'HDR, 12k resolution, Bitmap, Raster graphics:2', 'Uranian blue Color Scheme']}
 ```
 
