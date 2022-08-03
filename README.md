@@ -9,3 +9,41 @@ This tool contains a *growing* database of terminology to help build interesting
 Artist names gathered by **MisterRuffian** (Discord Misterruffian#2891) on his amazing [Latent Artist & Modifier Encyclopedia](https://docs.google.com/spreadsheets/d/1_jgQ9SyvUaBNP1mHHEzZ6HhL_Es1KwBKQtnpnmWW82I/).
 
 Terminology Database created by **WAS**asquatch (Discord: WAS\#0263)
+
+# INSTALLATION
+
+Noodle Soup Prompts was initially meant to be just a basic script for random prompt generation, but a PY file you can download and import to use the database. 
+
+
+## Download `nsp_pantry.py`
+```
+wget -q --show-progress --no-cache --backups=1 'https://raw.githubusercontent.com/WASasquatch/noodle-soup-prompts/main/nsp_pantry.py'
+```
+
+
+## Import and Parse
+
+```
+import nsp_pantry
+from nsp_pantry import  nspterminology, nsp_parse
+
+text_prompts = {
+    0: [
+        "Portrait of a _adj-beauty_ _noun-emote_ _nationality_ woman with pearlescent skin and white hair by _artist_, _site_.:5",
+        "_hd_, _hd_, _3d-terms_, _3d-terms_:2",
+        "_color_ Color Scheme",
+        ],
+}
+
+new_prompts = nsp_parse(text_prompts)
+
+print(new_prompts)
+```
+
+### Example Output
+```
+{0: ['Portrait of a goodly Enraged Hungarian woman with pearlescent skin and white hair by Ferdinand Keller, trending on CGSociety.:5', 'HDR, 12k resolution, Bitmap, Raster graphics:2', 'Uranian blue Color Scheme']}
+```
+
+
+
