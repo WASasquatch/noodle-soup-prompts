@@ -12,7 +12,7 @@ Terminology Database created by **WAS**asquatch (Discord: WAS\#0263)
 
 # INSTALLATION
 
-Noodle Soup Prompts was initially meant to be just a basic script for random prompt generation, but a PY file you can download and import to use the database. 
+Noodle Soup Prompts was initially meant to be just a basic script for random prompt generation, but I have moved things over to a PY file you can download and import to use the database in your own projects. 
 
 
 ## Download `nsp_pantry.py`
