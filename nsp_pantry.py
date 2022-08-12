@@ -7677,4 +7677,151 @@ nspterminology = {
 		"Fuyuko Matsui",
 		"Ã“scar DomÃ­nguez",
 	],
+	
+	# AGE/SEX DESCRIPTOR DATABASE
+	"identity": [
+		"old woman",
+		"old man",
+		"older woman",
+		"older man",
+		"middle-aged woman",
+		"middle-aged man",
+		"woman",
+		"man",
+		"young woman",
+		"young man",
+		"teenage girl",
+		"teenage boy",
+		"girl",
+		"boy",
+		"young girl",
+		"young boy",
+		"baby",
+	],
+	
+	# AGE/SEX (only adults) DESCRIPTOR DATABASE
+	"identity-adult": [
+		"old woman",
+		"old man",
+		"older woman",
+		"older man",
+		"middle-aged woman",
+		"middle-aged man",
+		"woman",
+		"man",
+		"young woman",
+		"young man",	
+	],
+	
+	# AGE/SEX DESCRIPTOR DATABASE
+	"identity-young": [
+		"teenage girl",
+		"teenage boy",
+		"girl",
+		"boy",
+		"young girl",
+		"young boy",
+		"baby",
+	],
+	
+	# PUNKS DATABASE
+	"punk": [
+		"cyberpunk",
+		"dieselpunk",
+		"frostpunk",
+		"steampunk",
+		"biopunk",
+		"nanopunk",
+		"steelpunk",
+		"stonepunk",
+		"magicpunk",
+		"mythpunk",
+	],
+	
+	#HAIRS DATABASE
+	"hair": [
+		"bold",
+		"short black hair",
+		"short blond hair",
+		"short auburn hair",
+		"short brown hair",
+		"short gray hair",
+		"long black hair",
+		"long blond hair",
+		"long auburn hair",
+		"long brown hair",
+		"long gray hair",
+		"long wavy black hair",
+		"long wavy blond hair",
+		"long wavy auburn hair",
+		"long wavy brown hair",
+		"long wavy gray hair",
+		"black undercut",
+		"blond undercut",
+		"auburn undercut",
+		"brown undercut",
+		"gray undercut",
+		"long curly black hair",
+		"long curly blond hair",
+		"long curly auburn hair",
+		"long curly brown hair",
+		"long curly gray hair",
+		"black buzzcut",
+		"blond buzzcut",
+		"auburn buzzcut",
+		"brown buzzcut",
+		"gray buzzcut",
+		"black dreadlocks",
+		"blond dreadlocks",
+		"auburn dreadlocks",
+		"brown dreadlocks",
+		"gray dreadlocks",
+		"black braids",
+		"blond braids",
+		"auburn braids",
+		"brown braids",
+		"gray braids",
+	],
+	
+	#BODYSHAPES DATABASE
+	"bodyshape": [
+		"fat",
+		"fit",
+		"elegant",
+		"slender",
+		"burly",
+		"bulky",
+		"thin",
+		"chubby",
+		"lanky",
+		"skinny",
+		"buff",
+		"ripped",
+		"rough",		
+	],
+	
+	#EYE COLOR DATABASE
+	"eyecolor": [
+		"hazel",
+		"brown",
+		"dark brown",
+		"gold",
+		"green",
+		"jade",
+		"teal",
+		"ice blue",
+		"light blue",
+		"blue",
+		"grey",
+		"grey-blue",
+		"amber",
+	],
+	
+	
+	
+
+
+	
+
+	
 }
