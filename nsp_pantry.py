@@ -7700,7 +7700,7 @@ nspterminology = {
 	],
 	
 	# AGE/SEX (only adults) DESCRIPTOR DATABASE
-	"identityAdult": [
+	"identity-adult": [
 		"old woman",
 		"old man",
 		"older woman",
@@ -7714,7 +7714,7 @@ nspterminology = {
 	],
 	
 	# AGE/SEX DESCRIPTOR DATABASE
-	"identityYoung": [
+	"identity-young": [
 		"teenage girl",
 		"teenage boy",
 		"girl",
