@@ -49,7 +49,7 @@ def nsp_parse(prompt):
 nspterminology = {
 	
 	# FANTASY CREATURES DATABASE
-	"fantasy-creature":
+	"fantasy-creature": [
 		"Centaurs",
 		"Demon",
 		"Dragons",
