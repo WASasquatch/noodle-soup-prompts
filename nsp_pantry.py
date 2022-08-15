@@ -19,7 +19,7 @@ def nsp_parse(prompt):
                         tkey = f'_{term}_'
                         tcount = prompt.count(tkey)
                         for i in range(tcount):
-                            new_prompt = new_prompt.replace(tkey, random.choice(terminology_database[term]), 1)
+                            new_prompt = new_prompt.replace(tkey, random.choice(nspterminology[term]), 1)
                     new_prompts.append(new_prompt)
                 new_dict[pstep] = new_prompts
                 new_prompts = []
