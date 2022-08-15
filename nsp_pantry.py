@@ -54,19 +54,37 @@ def nsp_parse_wip(prompt):
   ptype = type(prompt)
 
   if ptype == dict:
-    for pkey, plist in prompt.items():
-      if type(plist) is list:
-        for pstr in plist:
-          new_prompt = pstr
-          for term in nspterminology:
-            tkey = f'_{term}_'
-            tcount = new_prompt.count(tkey)
-            for i in range(tcount):
-              new_prompt = new_prompt.replace(tkey, random.choice(nspterminology[term]), 1)
-          new_prompts.append(new_prompt)
-          new_prompt = None
-      new_dict[pkey] = new_prompts
+	
+	
+    #for pkey, plist in prompt.items():
+    #  if type(plist) is list:
+    #    for pstr in plist:
+    #      new_prompt = pstr
+    #      for term in nspterminology:
+    #        tkey = f'_{term}_'
+    #        tcount = new_prompt.count(tkey)
+    #        for i in range(tcount):
+    #          new_prompt = new_prompt.replace(tkey, random.choice(nspterminology[term]), 1)
+    #      new_prompts.append(new_prompt)
+    #      new_prompt = ''
+    #  new_dict[pkey] = new_prompts
+    #return new_dict
+
+    for pstep, pvalue in prompt.items():
+      for prompt in pvalue:
+        new_prompt = prompt
+	for term in nspterminology:
+	  tkey = f'_{term}_'
+	  tcount = prompt.count(tk)
+	  for i in range(tcount):
+	    new_prompt = new_prompt.replace(tkey, random.choice(terminology_database[term]), 1)
+	  new_prompts.append(new_prompt)
+	new_dict[pstep] = new_prompts
+	new_prompts = []
     return new_dict
+
+
+
   elif ptype == list:
     for pstr in prompt:
       new_prompt = pstr
