@@ -63,8 +63,8 @@ def nsp_parse_wip(prompt):
             tcount = new_prompt.count(tkey)
             for i in range(tcount):
               new_prompt = new_prompt.replace(tkey, random.choice(nspterminology[term]), 1)
-      new_prompts.append(new_prompt)
-      new_prompt = None
+          new_prompts.append(new_prompt)
+          new_prompt = None
       new_dict[pkey] = new_prompts
     return new_dict
   elif ptype == list:
