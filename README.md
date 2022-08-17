@@ -17,12 +17,12 @@ Noodle Soup Prompts was initially meant to be just a basic script for random pro
 
 ## Download `nsp_pantry.py` (Python)
 ```
-wget -q --show-progress --no-cache --backups=1 'https://raw.githubusercontent.com/WASasquatch/noodle-soup-prompts/main/nsp_pantry.py'
+wget -q --show-progress --no-cache 'https://raw.githubusercontent.com/WASasquatch/noodle-soup-prompts/main/nsp_pantry.py'
 ```
 
 ## Download `nsp_pantry.json` (JSON)
 ```
-wget -q --show-progress --no-cache --backups=1 'https://raw.githubusercontent.com/WASasquatch/noodle-soup-prompts/main/nsp_pantry.json'
+wget -q --show-progress --no-cache 'https://raw.githubusercontent.com/WASasquatch/noodle-soup-prompts/main/nsp_pantry.json'
 ```
 
 ## Import and Parse (Python)
