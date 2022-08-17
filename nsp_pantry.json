@@ -1,6 +1,7 @@
 {
 
-    "fantasy-creature": [
+
+	"fantasy-creature": [
         "Centaurs",
         "Demon",
         "Dragons",
@@ -40,7 +41,8 @@
 	],
 	
 
-    "gen-modifier": [
+
+	"gen-modifier": [
         "60s kitsch and psychedelia",
         "abstract illusionism",
         "ambrotype",
@@ -112,7 +114,8 @@
 	],
 
 
-    "adj-beauty": [
+
+	"adj-beauty": [
         "aesthetic",
         "esthetic",
         "aesthetical",
@@ -202,7 +205,8 @@
 	],
 
 
-    "noun-beauty": [
+
+	"noun-beauty": [
         "a perfect 10",
         "a vision",
         "admirer",
@@ -277,7 +281,8 @@
 	],
 
 
-    "noun-fantasy": [
+
+	"noun-fantasy": [
         "Alchemy",
         "Apprentice",
         "Archer",
@@ -409,7 +414,8 @@
 	],
 
 
-    "adj-horror": [
+
+	"adj-horror": [
         "alarming",
         "dire",
         "direful",
@@ -459,7 +465,8 @@
 	],
 
 
-    "noun-emote": [
+
+	"noun-emote": [
         "Happy",
         "Afraid",
         "Sad",
@@ -524,7 +531,8 @@
 	],
 
 
-    "noun-horror": [
+
+	"noun-horror": [
         "apparition",
         "enchanted",
         "ghost",
@@ -642,7 +650,8 @@
 	],
 
 
-    "adj-architecture": [
+
+	"adj-architecture": [
         "Minimalist",
         "Eclectic architecture",
         "Reflective",
@@ -775,7 +784,8 @@
 	],
 
 
-    "nationality": [
+
+	"nationality": [
         "Afghan",
         "Albanian",
         "Algerian",
@@ -1007,7 +1017,8 @@
 	],
 	
 
-    "pop-location": [
+
+	"pop-location": [
         "The Grand Canyon, Arizona",
         "Rome, Italy",
         "Maui, Hawaii",
@@ -1088,7 +1099,8 @@
 	],
 	
 
-        "pop-culture": [
+
+    "pop-culture": [
         "3DO Interactive Multiplayer",
         "A Clockwork Orange (1971)",
         "Adventure Time",
@@ -1266,7 +1278,8 @@
 	],
 
 
-    "site": [
+
+	"site": [
         "trending on ArtStation",
         "trending on ConceptArtWorld",
         "trending on Flickr",
@@ -1287,7 +1300,8 @@
 	],
 
 
-    "style": [
+
+	"style": [
         "in the Style of Tempera",
         "in the Style of Oil Paints",
         "in the Style of Acrylic Paints",
@@ -1307,6 +1321,7 @@
         "in the Style of Matte Paintings",
         "in the Style of Digital Matte Paintings",
 
+
         "in the Style of 2D Animation",
         "in the Style of Concept Artist",
         "in the Style of Fractal Art",
@@ -1322,7 +1337,8 @@
 	],
 
 
-    "hd": [
+
+	"hd": [
         "2k resolution",
         "4k resolution",
         "8k resolution",
@@ -1338,7 +1354,8 @@
 	],
 
 
-    "aspect-ratio": [
+
+	"aspect-ratio": [
         "4:3 aspect ratio",
         "5:4 aspect ratio",
         "2:1 aspect ratio",
@@ -1355,7 +1372,8 @@
 	],
 
 
-    "3d-terms": [
+
+	"3d-terms": [
         "2D Sprite",
         "Ambient Lighting",
         "Ambient Occlusion",
@@ -1397,7 +1415,8 @@
 	],
 
 
-    "color-palette": [
+
+	"color-palette": [
         "Teletext palette",
         "Apple II palette",
         "Commodore VIC-20 palette",
@@ -1443,7 +1462,8 @@
 	],
 
 
-    "camera": [
+
+	"camera": [
         "Canon EOS Rebel T7 DSLR Camera",
         "Sony a7 IV Mirrorless Camera",
         "Canon EOS R6 Mirrorless Camera",
@@ -1520,7 +1540,8 @@
 		],
 
 
-    "camera-manu": [
+
+	"camera-manu": [
         "Canon",
         "Nikon",
         "Sony",
@@ -1534,7 +1555,8 @@
 	],
 
 
-    "f-stop": [
+
+	"f-stop": [
         "ƒ/1",
         "ƒ/1.4",
         "ƒ2",
@@ -1548,7 +1570,8 @@
 	],
 
 
-    "iso-stop": [
+
+	"iso-stop": [
         "ISO 100",
         "ISO 200",
         "ISO 400",
@@ -1565,7 +1588,8 @@
 	],
 
 
-    "focal-length": [
+
+	"focal-length": [
         "4mm - 14mm  focal length",
         "Fisheye focal length",
         "14mm - 35mm  focal length",
@@ -1582,7 +1606,8 @@
 	],
 
 
-    "photo-term": [
+
+	"photo-term": [
         "Bokeh",
         "Depth of Field",
         "DoF",
@@ -1597,7 +1622,9 @@
 
 
 
-    "adj-general": [
+
+
+	"adj-general": [
         "abandoned",
         "able",
         "absolute",
@@ -2948,7 +2975,8 @@
 	],
 
 
-    "noun-general": [
+
+	"noun-general": [
         "ability",
         "abroad",
         "abuse",
@@ -4475,7 +4503,8 @@
 	],
 
 
-    "color": [
+
+	"color": [
         "Absolute Zero",
         "Acid green",
         "Aero",
@@ -5031,7 +5060,8 @@
         "Olive",
 
 
-        "Olive green",
+
+    "Olive green",
         "Olivine",
         "Onyx",
         "Opal",
@@ -5411,7 +5441,8 @@
 	],
 
 
-    "artist": [
+
+	"artist": [
         "Aaron Douglas",
         "Aaron Horkey",
         "Aaron Jasinski",
@@ -7670,7 +7701,8 @@
 	],
 	
 
-    "identity": [
+
+	"identity": [
         "old woman",
         "old man",
         "older woman",
@@ -7691,7 +7723,8 @@
 	],
 	
 
-    "identity-adult": [
+
+	"identity-adult": [
         "old woman",
         "old man",
         "older woman",
@@ -7705,7 +7738,8 @@
 	],
 	
 
-    "identity-young": [
+
+	"identity-young": [
         "teenage girl",
         "teenage boy",
         "girl",
@@ -7716,7 +7750,8 @@
 	],
 	
 
-    "punk": [
+
+	"punk": [
         "atompunk",
         "biopunk",
         "clockpunk",
@@ -7740,7 +7775,8 @@
 	],
 	
 
-        "hair": [
+
+    "hair": [
         "bold",
         "short black hair",
         "short blond hair",
@@ -7785,7 +7821,8 @@
 	],
 	
 
-        "bodyshape": [
+
+    "bodyshape": [
         "fat",
         "fit",
         "elegant",
@@ -7802,7 +7839,8 @@
 	],
 	
 
-        "skin-color": [
+
+    "skin-color": [
         "pale",
         "light",
         "fair",
@@ -7832,7 +7870,8 @@
 	],
 	
 
-        "eyecolor": [
+
+    "eyecolor": [
         "hazel",
         "green",
         "brown",
@@ -7862,7 +7901,8 @@
 	],
 	
 
-        "fantasy-setting": [
+
+    "fantasy-setting": [
         "Xanadu: A magical kingdom ruled by a wise and benevolent queen",
         "neverland: A lost island where children can stay forever young",
         "Shambhala: A hidden paradise where enlightened beings live in perfect harmony",
@@ -7902,7 +7942,8 @@
 	],
 	
 
-        "details": [
+
+    "details": [
         "Elaborate",
         "Ornate",
         "Intricate",
@@ -7937,7 +7978,8 @@
 	
 
 
-    "portrait-type": [
+
+	"portrait-type": [
         "Sitting",
         "Standing",
         "Lying down",
@@ -7966,7 +8008,8 @@
 	], 
 	
 
-        "occupation": [
+
+    "occupation": [
         "able-bodied seaman",
         "Activist",
         "Air Force Intelligence",
@@ -8103,7 +8146,8 @@
 	],
 	
 
-        "celeb": [
+
+    "celeb": [
         "Addison Rae",
         "Adele",
         "Adriana Lima",
@@ -8630,7 +8674,8 @@
         "Zooey Deschanel",
         "Zoë Kravitz",
 	],
-        "neg-weight": [
+	
+    "neg-weight": [
         "jpeg artifact",
         "Image compression",
         "Distorted",
@@ -8664,7 +8709,8 @@
         "tasteless",
         "tacky",
 	],
-        "landscape-type": [
+	
+    "landscape-type": [
         "abstract landscape",
         "aerial landscape",
         "architectural landscape",
