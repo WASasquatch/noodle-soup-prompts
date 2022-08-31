@@ -43,6 +43,8 @@ new_prompts = nsp_parse(text_prompts)
 
 print(new_prompts)
 ```
+**Note:** `nsp_parse()` can accept `dict`, `list` and `str` input. 
+
 
 ### Example Output
 ```python
