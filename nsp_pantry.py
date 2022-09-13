@@ -10733,5 +10733,13 @@ nspterminology = {
 		"Zorse",
 		"Zuchon",
 	],
+	
+	"gender": [
+		"girl",
+		"boy",
+		"female",
+		"male",
+		"non-binary",
+	],
 
 }
