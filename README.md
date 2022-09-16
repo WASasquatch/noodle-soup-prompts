@@ -13,7 +13,7 @@ Terminology Database created by **WAS**asquatch (Discord: WAS\#0263)
 # Contribute
 Feel free to make pull requests with new terminology. Let's make this a expansive and easy way to discover new prompts!
 
-# INSTALLATION
+# Installation
 
 #### **Update**: You do not use `import nspterminology` anymore. NSP will download the terminology database json on first run. 
 
