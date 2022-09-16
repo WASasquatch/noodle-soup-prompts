@@ -2,7 +2,7 @@ nspterminology = None
 
 def wget(url, output):
     import subprocess
-    res = subprocess.run(['wget', '-q', '--show-progress', url, '-O', output], stdout=subprocess.PIPE).stdout.decode('utf-8')
+    res = subprocess.run(['wget', '-q', url, '-O', output], stdout=subprocess.PIPE).stdout.decode('utf-8')
     print(res)
 
 # nsp_parse( prompt )
