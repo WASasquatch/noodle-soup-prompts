@@ -1,4 +1,4 @@
-import random, json, subprocess
+import random, json, subprocess, os
 
 nspterminology = None
 
