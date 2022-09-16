@@ -11,15 +11,15 @@ def wget(url, output):
 # Parse strings for terminology keys and replace them with random terms
 def nsp_parse(prompt):
 
-    global nspterminology
+	global nspterminology
 	
     new_prompt = ''
     new_prompts = []
     new_dict = {}
     ptype = type(prompt)
 	
-    if not os.path.exists('./nsp_pantry.json'):
-	wget('https://raw.githubusercontent.com/WASasquatch/noodle-soup-prompts/main/nsp_pantry.json', './nsp_pantry.json')
+	if not os.path.exists('./nsp_pantry.json'):
+		wget('https://raw.githubusercontent.com/WASasquatch/noodle-soup-prompts/main/nsp_pantry.json', './nsp_pantry.json')
 	
     nspterminology = json.load('./nsp_pantry.json')
 
