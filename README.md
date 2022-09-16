@@ -29,7 +29,7 @@ wget -q --show-progress --no-cache 'https://raw.githubusercontent.com/WASasquatc
 
 ```python
 import nsp_pantry
-from nsp_pantry import  nspterminology, nsp_parse
+from nsp_pantry import nsp_parse
 
 text_prompts = {
     0: [
