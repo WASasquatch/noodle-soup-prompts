@@ -1,4 +1,4 @@
-# **Noodle Soup Prompts**- Prompt Terminology Generator</font> ![visitors](https://visitor-badge.glitch.me/badge?page_id=Noodle-Soup-Prompts-Github&left_color=blue&right_color=orange) 
+# **Noodle Soup Prompts** - Prompt Terminology Generator</font> ![visitors](https://visitor-badge.glitch.me/badge?page_id=Noodle-Soup-Prompts-Github&left_color=blue&right_color=orange) 
 
 <a href="https://rebrand.ly/noodle-soup-prompts"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
@@ -9,6 +9,9 @@ This tool contains a *growing* database of terminology to help build interesting
 Artist names gathered by **MisterRuffian** (Discord Misterruffian#2891) on his amazing [Latent Artist & Modifier Encyclopedia](https://docs.google.com/spreadsheets/d/1_jgQ9SyvUaBNP1mHHEzZ6HhL_Es1KwBKQtnpnmWW82I/).
 
 Terminology Database created by **WAS**asquatch (Discord: WAS\#0263)
+
+# Contribute
+Feel free to make pull requests with new terminology. Let's make this a expansive and easy way to discover new prompts!
 
 # INSTALLATION
 
