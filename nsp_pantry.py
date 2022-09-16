@@ -1,8 +1,7 @@
-import random, json, subprocess, os
-
 nspterminology = None
 
 def wget(url, output):
+    import subprocess
     res = subprocess.run(['wget', '-q', '--show-progress', url, '-O', output], stdout=subprocess.PIPE).stdout.decode('utf-8')
     print(res)
 
@@ -10,6 +9,8 @@ def wget(url, output):
 # Input: dict, list, str
 # Parse strings for terminology keys and replace them with random terms
 def nsp_parse(prompt):
+
+    import random, os, json
 
     global nspterminology
 	
