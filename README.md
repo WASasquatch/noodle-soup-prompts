@@ -1,4 +1,4 @@
-# **Noodle Soup Prompts**- Prompt Terminology Generator</font> ![visitors](https://visitor-badge.glitch.me/badge?page_id=Noodle-Soup-Prompts-Github&left_color=blue&right_color=orange) 
+# **Noodle Soup Prompts** - Prompt Terminology Generator</font> ![visitors](https://visitor-badge.glitch.me/badge?page_id=Noodle-Soup-Prompts-Github&left_color=blue&right_color=orange) 
 
 <a href="https://rebrand.ly/noodle-soup-prompts"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
@@ -10,7 +10,10 @@ Artist names gathered by **MisterRuffian** (Discord Misterruffian#2891) on his a
 
 Terminology Database created by **WAS**asquatch (Discord: WAS\#0263)
 
-# INSTALLATION
+# Contribute
+Feel free to make pull requests with new terminology. Let's make this a expansive and easy way to discover new prompts!
+
+# Installation
 
 #### **Update**: You do not use `import nspterminology` anymore. NSP will download the terminology database json on first run. 
 
